@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samba</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      color: #aaaaaa;
+      margin: 0;
+    }
+
+    .header-container {
+      background-color: #e5e5e5;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .header-container h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+      color: #333;
+    }
+
+    .content-container {
+      overflow: auto;
+    }
+
+    .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+      background-color: #e5e5e5;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px;
+      margin-top: 7px;
+      width: 100%;
+      color: black;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #e11;
+      color: white;
+      text-decoration: underline;
+    }
+
+    .current-page {
+      background-color: #e11;
+      color: white;
+    }
+
+    .main-content {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+    }
+
+    .main-content h2 {
+      color: #e11;
+      font-weight: bold;
+    }
+
+    .main-content p {
+      color: black;
+    }
+
+    .right-sidebar {
+      float: right; /* Cambiado de left a right */
+      width: 20%;
+      background-color: #e5e5e5;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+    }
+
+    .right-sidebar img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .donations-text {
+      text-align: left;
+      color: black;
+    }
+
+    .donations-text h2 {
+      color: red;
+    }
+    .footer-container {
+      background-color: #e5e5e5;
+      text-align: center;
+      padding: 10px;
+      margin-top: 7px;
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Samba</h1>
+    </div>
+  </header>
+
+  <div class="content-container">
+    <nav class="menu">
+  <a href="index.html">Inicio</a>
+  <a href="nosotros.html">Nosotros</a>
+  <a href="samba.html">Samba</a>
+  <a href="descarga.html">Descarga</a>
+  <a href="errores.html">Errores</a>
+  <a href="webs.html" class="current-page">Webs</a>
+</nav>
+
+    <aside class="right-sidebar">
+      <img src="/media/alumne-admin/ADRIAN 1CFM/index/imagen/samba.png" alt="Descripción de la imagen">
+      <div class="donations-text">
+        <h2>Donaciones</h2>
+        <p>Hoy en día, el equipo de Samba necesita <a href="https://www.samba.org/samba/donations.html">dinero</a> en vez de pizza ;-)</p>
+        <h2>10 años de Samba!</h2>
+        <p>¿Quién habría creído que eventualmente conduciría al proyecto que ahora es Samba? Gracias a la participación de innumerables personas a lo largo de los años, Samba ha recorrido un largo camino en la última década y está destinado a seguir mejorando en el futuro previsible.</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <h2>Páginas similares</h2>
+<p>Aquí unos enlaces que llevan a páginas que hablan también sobre Samba, por lo que pueden servirte de ayuda:</p>
+<ul>
+        <li><a href="https://es.wikipedia.org/wiki/Samba_(software)" target="_blank">Samba en Wikipedia</a></li>
+        <li><a href="https://www.profesionalreview.com/2017/03/25/servidor-samba-conceptos-y-configuracion-rapida/" target="_blank">Conceptos y configuración rápida de servidor Samba</a></li>
+        <li><a href="https://tecno-simple.com/que-es-samba-puente-de-red-entre-unix-y-windows/" target="_blank">Samba: Puente de red entre Unix y Windows</a></li>
+        <li><a href="https://www.labsmac.es/1-introduccion-que-es-samba-y-algo-de-smb-cifs/" target="_blank">Introducción a Samba y SMB/CIFS</a></li>
+</ul>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      © Adrián Grau Melero y Alejandro Fernández Martínez
+    </div>
+  </footer>
+
+</body>
+</html>
